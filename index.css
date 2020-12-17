@@ -1,0 +1,323 @@
+* {
+    
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #2E2E2E;
+    width: 100%;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.10);
+    z-index: 1;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    padding-left: 1.5rem;
+    
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 3px;
+    transition: .3s ease;
+    font-family: 'Teko', sans-serif;
+    font-size: 1.5em;
+}
+
+.menu li a:hover{
+    color: white;
+    background-color: rgb(140, 140, 140);
+    transform: scale(1.2);
+}
+
+.menu li:last-child{
+    float: right;
+    margin-right: 2rem;
+}
+
+
+body {
+ background-color: #2E2E2E;
+}
+
+.slagord {
+    
+    font-family:'Teko', sans-serif;
+    font-size: 2.7rem;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #4FB7BF;
+    margin-top: 90px;
+    
+}
+
+@media screen and (max-width: 500px) {
+    .slagord {
+      width: 100%;
+    }
+  }
+
+
+#video {
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem; 
+    margin-top: 20px;
+
+}
+
+
+video {
+    max-width: 100%; }
+    @media (max-width: 56.25em) {
+      video {
+        max-width: 100%; } }
+    @media (max-width: 37.5em) {
+      video {
+        max-width: 100%; } }
+
+      
+
+.informasjon {
+    margin-top: 50px;
+    justify-content: center;
+    
+}
+  
+
+h2 {
+    font-family: 'Teko', sans-serif;
+    color: #4FB7BF;
+    font-size: 2.5rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.tekst {
+    color: #E9E9E9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+    text-align: center;
+    justify-content: center;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+
+.uskarpt::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+.nummer1 {
+    width: 50%;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+    background-size: cover;
+    max-width: 100%; 
+
+  
+}
+
+.nummer1 img {
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 500px) {
+    .nummer1 {
+      width: 100%;
+    }
+  }
+
+
+h3 {
+    font-family: 'Teko', sans-serif;
+    color: #4FB7BF;
+    font-size: 1.4rem; 
+    text-align: center;
+    
+  
+   
+}
+    
+#hover {
+    position:relative;
+    height:281px;
+    width:450px;
+    margin:0 auto;
+}
+
+#hover img {
+    position:absolute;
+    border-radius: 5px;
+    
+      left:0;
+      -webkit-transition: opacity 1s ease-in-out;
+      -moz-transition: opacity 1s ease-in-out;
+      -o-transition: opacity 1s ease-in-out;
+      transition: opacity 1s ease-in-out;
+}
+
+
+
+#hover img.top:hover {
+    opacity:0;
+  }
+
+  #engasjer {
+      margin-top: 70px;
+      margin-top: 50px;
+      
+  }
+  .engasjer {
+      text-align: center;
+      margin-bottom: 30px;
+
+  }
+
+  .h21 {
+    font-family: 'Teko', sans-serif;
+    color: #4FB7BF;
+    font-size: 2.5rem;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .tekst1 {
+    color: #E9E9E9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+    text-align: center;
+    justify-content: center;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  button {
+	display: inline-block;
+	padding: 15px 35px;
+	margin-top: 50px;
+	border-radius: 40px;
+	border: 2px solid #eee;
+	cursor: pointer;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #4FB7BF;
+    font-size: 1.3rem;
+    margin-bottom: 50px;
+    
+
+    } 
+
+button:hover {
+    color: white;
+    background: yellow;
+    border-color: yellow;
+    transition: all 0.5s ease 0s;
+}
+
+.nummer {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    height: 300px;
+    overflow: hidden;
+    background-size: cover;
+    
+}
+
+.avslutningsbilde::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+@media screen and (max-width: 500px) {
+    .nummer {
+      width: 100%;
+    }
+  }
+
+
+  .h22 {
+    font-family: 'Teko', sans-serif;
+    color: #4FB7BF;
+    font-size: 2.5rem;
+    justify-content: center;
+    text-align: center;
+    margin-top: 300px;
+  }
+
+  .ossselvinfo{
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+  .footer {
+      background-color: #1A777E;
+      display: grid;
+      padding-bottom: 40px;
+     
+  }
+
+  .follow {
+      font-family: 'Teko', sans-serif;
+      font-weight: 200;
+      text-align: center;
+      color: white;
+      font-size: 2.5rem;
+  }
+
+  .center-text {
+    text-align: center; }
+
+  .some__icon {
+    margin-top: 3rem;
+    padding-left: 2rem;
+    width: 4rem;
+    height: 4rem;
+    
+}
+
+.credits {
+    padding: 0;
+    font-size: 16px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
